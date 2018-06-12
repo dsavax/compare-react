@@ -23,7 +23,7 @@ class Header extends Component {
   	let menuActive = this.state.isToggleOn ? 'is-active' : '';
 
     return (
-	    <nav className="navbar" role="navigation" aria-label="main navigation">
+	    <div className="navbar" role="navigation" aria-label="main navigation">
 	      <div className="container">
 	        <div className="navbar-brand">
 	          <a className="navbar-item">My Company</a>
@@ -58,7 +58,7 @@ class Header extends Component {
 	          </div>
 	        </div>
 	      </div>
-	    </nav>
+	    </div>
     );
   }
 }
